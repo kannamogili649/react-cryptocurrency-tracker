@@ -1,0 +1,24 @@
+.currency-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.currency-logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.currency-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.currency-val {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.currency-val p {
+  min-width: 100px;
+}
